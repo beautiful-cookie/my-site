@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flowerd&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-color: #00BD73;
+}
+
+header
+{
+    position: sticky;
+    top: 0;
+    width: 100%; 
+    height: 10vh;
+    user-select: none; 
+}
+
+.head-navigation
+{
+    display: flex;
+    background-color:  Khaki;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2%; 
+    color: #0E804E;
+    box-shadow: 0px 8px 17px 0px black;
+}
+
+.head 
+{
+    display: flex;
+    background: #22C987; 
+    justify-content: center; 
+    align-items: center;
+    padding: 1%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+}
+
+
+
+footer {
+    display: block;
+    height: 40vh;
+    max-width: 100%;
+    background-color: #1C4942;
+    padding: 5% 5%;
+}
+
+.footer-content
+{
+    margin: 3%; 
+    font-family: 'Indie Flower', cursive;
+}
+
+.contacts
+{
+    display: block; 
+    padding: 1%;
+    color: #33BD5C;
+}
+
+.footer-href
+{
+    text-decoration: none;
+    color: #33BD5C;
+    transition-property: color; 
+    transition-duration: 0.5s;
+    cursor: pointer; 
+    font-family: 'Righteous', cursive;
+}
+
+.footer-href:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+
+
+.btn
+{
+    text-decoration: none; 
+    color: #002210;
+    transition-property: color; 
+    transition-duration: 0.5s;
+    cursor: pointer; 
+    font-family: 'Righteous', cursive;
+}
+
+.btn:hover
+{
+    color: yellow;
+}
+
+
+
+.main-message-div
+{
+    display: flex; 
+    margin: 5%;
+    margin-top: 0px;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.message-div-compaired 
+{
+    display: inline-block;
+    width: 70vw;
+    margin: 1%;
+    background-color: #63FDB7; 
+    border-left: 15px solid green;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 3%;
+    overflow: hidden;
+    box-shadow: 0px 8px 17px 0px black;
+}
+
+.colorless-txt
+{
+    display: inline-block;
+    width: 70vw;
+    margin: 1%;
+    padding: 3%;
+    overflow: hidden;
+    color: #002210;
+}
+
+.font-clr
+{
+    color: #002210;
+}
+
+.title-div
+{
+    display: block; 
+    padding: 1%;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.message-div
+{
+    display: inline-block;
+    padding: 1%;
+    font-family: 'Indie Flower', cursive;
+}
+

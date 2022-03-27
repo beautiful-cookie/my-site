@@ -1,0 +1,13 @@
+.text-article-color
+{
+    color: #002210;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+.text-article-color:hover
+{
+    text-decoration: underline;
+    color: white;
+}

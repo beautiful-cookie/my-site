@@ -1,0 +1,13 @@
+.text-event-color
+{
+    color: #002210;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+.text-event-color:hover
+{
+    text-decoration: underline;
+    color: white;
+}
